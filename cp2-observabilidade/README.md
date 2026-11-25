@@ -72,6 +72,8 @@ Documentação interativa em `http://localhost:8000/docs`.
 
 Execute os comandos locais abaixo a partir da pasta `cp2-observabilidade/`, onde está o `requirements.txt` do CP2.
 
+Os comandos desta seção são executados dentro da pasta `cp2-observabilidade/` (`cd cp2-observabilidade` a partir da raiz do repositório).
+
 Pacotes necessários (em `requirements.txt`): `fastapi`, `uvicorn`, `requests`,
 `streamlit`, `pandas`, `numpy`, `plotly`. Testado com Python 3.13.
 
@@ -79,13 +81,13 @@ Pacotes necessários (em `requirements.txt`): `fastapi`, `uvicorn`, `requests`,
 python3.13 -m pip install -r requirements.txt
 ```
 
-Terminal 1, na raiz do projeto (back-end):
+Terminal 1, na pasta `cp2-observabilidade/` (back-end):
 
 ```bash
 python3.13 -m uvicorn backend.main:app --port 8000
 ```
 
-Terminal 2, na raiz do projeto (front-end):
+Terminal 2, na pasta `cp2-observabilidade/` (front-end):
 
 ```bash
 python3.13 -m streamlit run frontend/app.py
@@ -127,7 +129,7 @@ está na pasta `docs/`:
 
 ## Escopo da entrega
 
-Este repositório reúne a API de sensores e as telas de Leitura atual, Histórico e Observabilidade. O painel de alertas e as telas de cadastro estão no [repositório da Sprint 3](../README.md).
+Esta pasta reúne a API de sensores e as telas de Leitura atual, Histórico e Observabilidade. O painel de alertas e as telas de cadastro estão na [Sprint 3, na raiz do repositório](../README.md).
 
 ## Evidências visuais
 
