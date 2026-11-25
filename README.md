@@ -1,5 +1,12 @@
 # Forzy — Sprint 3: Painel de Alertas e Estados
 
+## Versões do projeto
+
+- **Sprint 3**. O código na raiz contém o dashboard operacional, o painel de alertas e as telas de cadastro. Consulte as instruções abaixo para executar esta versão.
+- **CP2 de Observabilidade**. O [guia do CP2](cp2-observabilidade/README.md) explica como executar a API de sensores e a interface Streamlit e reúne as capturas de Leitura atual, Histórico e Observabilidade.
+- **Documentação final da Sprint 4**. A comparação entre as versões está disponível em [PDF](cp2-observabilidade/docs/Forzy_Sprint4_Documentacao_Final.pdf) e [Word](cp2-observabilidade/docs/Forzy_Sprint4_Documentacao_Final.docx).
+- **Referência histórica**. O [commit `4a011c0`](https://github.com/murilo2318/forzy-sprint3/tree/4a011c0888b5510bdade60e73856f4786593d1fe) registra o estado imediatamente anterior à consolidação. O commit `11d5570` é a entrega original citada no documento.
+
 Camada visual de inteligencia operacional e apoio a decisao para a plataforma
 Forzy (Digital Twin de motores industriais). Da continuidade as Sprints 1
 (cadastro de equipamentos) e 2 (dashboard operacional), adicionando a camada
